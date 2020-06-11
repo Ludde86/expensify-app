@@ -6,7 +6,7 @@ const path = require('path');
 // the absolute path to our apllication
 // join together two paths -> path to our app + public folder
 module.exports = {
-	entry: './src/app.js',
+	entry: './src/playground/redux-101.js',
 	output: {
 		path: path.join(__dirname, 'public'),
 		filename: 'bundle.js'
